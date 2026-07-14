@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment configurations and secrets
+.env
+.streamlit/secrets.toml
+
+# Large datasets or reports
+data/exports/*
+!data/exports/.gitkeep
